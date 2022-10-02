@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>credit card form</title>
+        <meta charset="utf-8">
+        <meta name="description" content="credit card form">
+        <meta name="viewport" device="device-width, minimumscale=1.0, maximumscale=1.0, userscalable=no">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!--credit card-->
+        <div class="maincontainer">
+            <div class="cardcontainer">
+                <div class="img">
+                    <img class="cclogo" src="cc-logo.png" alt="">
+                    <img src="visa-logo.png" alt="">
+                </div>
+
+                <div class="secretno txtcolor"><span>4242</span><span>****</span><span>****</span><span>4242</span></div>
+
+                <!--card holder name-->
+                <div class="cardname">
+                    <div class="cdnm txtcolor"><span class="smtxt txtcolor">Card Holder</span>CSABA KISSI</div>
+                    <div class="cdep txtcolor"><span class="smtxt txtcolor">Expires</span>02/23</div>
+                </div>
+            </div>
+
+            <!--form-->
+            <div class="formdiv">
+                <form action="get">
+                    <label for="" class="smtxt">Card Number</label><br>
+                    <input class="rad space" placeholder="4242 4242 4242 4242" type="text">
+                    <br>
+                    <label for="" class="smtxt">Card Holder</label><br>
+                    <input class="rad space" type="text">
+                    <br>
+                    <div class="flexform">
+                        <label for="" class="smtxt">Expiration Date</label>
+                        <label for="" class="smtxt">CVV</label>
+                    </div>
+    
+                    <div class=" fform">
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <select>
+                            <option value="1">2022</option>
+                            <option value="2">2023</option>
+                        </select>
+                        <input class="rad" type="text">
+                    </div>
+    
+                    <div class="subm" ><p class="submit txtcolor">Submit</p></div>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
